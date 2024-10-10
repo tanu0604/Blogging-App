@@ -36,7 +36,7 @@ const Navbar = () => {
             <Link // Use Link component for navigation
               key={item.name}
               to={item.path} // Navigate to the path
-              className="flex items-center space-x-2 text-gray-300 hover:text-[#6C5DD3] transition-colors duration-200" // Dark gray with hover color
+              className="flex items-center space-x-2 text-gray-300 hover:text-[#6C5DD3] transition-colors duration-200 focus:text-[#6C5DD3]" // Dark gray with hover color
             >
               <FontAwesomeIcon icon={item.icon} className="h-6 w-6" />
             </Link>
@@ -50,7 +50,7 @@ const Navbar = () => {
           <Link // Use Link component for navigation
             key={item.name}
             to={item.path} // Navigate to the path
-            className="flex flex-col items-center text-gray-300 hover:text-[#6C5DD3] transition-colors duration-200" // Dark gray with hover color
+            className="flex flex-col items-center text-gray-300 hover:text-[#6C5DD3] transition-colors duration-200 focus:text-[#6C5DD3]" // Dark gray with hover color
           >
             <FontAwesomeIcon icon={item.icon} className="h-6 w-6" />
           </Link>
