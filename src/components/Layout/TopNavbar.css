@@ -1,0 +1,17 @@
+/* Prevent the navbar from overlapping with sidebar */
+.TopNavigation {
+  top: 0; /* Ensure navbar is fixed to the top */
+  margin-top: 0; /* Ensure no margin is pushing it down */
+}
+
+/* Sidebar adjustments (if you have one) */
+.sidebar {
+  margin-top: 64px; /* Adjust based on the height of your navbar */
+  /* or use padding-top to avoid overlap */
+}
+
+/* Optional: Clear any top margin that may come from other elements */
+body {
+  margin: 0; /* Reset default body margin */
+  padding-top: 0; /* Reset default body padding */
+}
